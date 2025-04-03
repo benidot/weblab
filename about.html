@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="./img/banner.gif" alt="banner" width="550px" style="border-radius: 10px;">
+        <nav style="display: flex;">
+            <p>navigation:</p>
+            <ul style="display: flex; gap: 2%;">
+                <form action="./index.html">
+                    <input type="button" value="🏠 home">
+                </form>
+                <li><a href="./index.html">🏠 home</a></li>
+                <li><a href="./about.html">👤 about</a></li>
+                <li><a href="./contact.html">📨 contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div style="display: flex; gap: 1em; align-items:center;">
+            <img src="./img/pfp.jpg" alt="pfp" width="125px" style="border-radius: 50%;">
+            <div style="display: flex; flex-direction: column;">
+                <p style="padding: 0px; margin: 0px;"><strong>beni</strong></p>
+                <p style="padding:0px; margin: 0px;">20yo</p>
+                <p style="padding:0px; margin: 0px;">they/he</p>
+            </div> 
+        </div>
+        <p>👤 comp sci student - upf</p>
+        <p>📚 eng, pt, nl, is, fi, no</p>
+        <p>🎹 post rock, ambient, future garage, rap, indie folk</p>
+        <p>🍿 the oa, dark, copenhagen cowboy, the good place</p>
+        
+        <fieldset>
+            <legend>contact</legend>
+            <label for="who">who are you?</label>
+            <input type="text" name="who" placeholder="name" required>
+            <input type="submit" value="send">
+                <br>
+            <label for="where">where are you?</label>
+            <input type="email" name="where" placeholder="email">
+            <input type="submit" value="send">
+                <br>
+            <label for="when">when are you?</label>
+            <input type="date" name="when" placeholder="date">
+            <input type="submit" value="send">
+        </fieldset>
+        <!-- type can be email and date too -->
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
