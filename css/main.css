@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 div {
     background-color: #A89678;
     width: fit-content;
@@ -26,3 +30,8 @@ body {
 p, fieldset, nav, form, input, label {
     font-size: small;
 }
+
+p {
+    margin: 5px;
+}
+  

@@ -18,21 +18,23 @@
 <body>
 
     <header>
-        <img src="./img/banner.gif" alt="banner" width="550px" style="border-radius: 10px;">
-        <nav style="display: flex;">
-            <p>navigation:</p>
-            <ul style="display: flex; gap: 2%;">
+        <h1 style="display: flex; justify-content: center;">about</h1>
+        <nav style="display: flex; flex-direction: column; align-items: center;">
+        <li style="display: flex; gap: 2%;">
                 <form action="./index.html">
-                    <input type="button" value="🏠 home">
+                    <button type="submit" value="homeButton">🏠 home</button>
                 </form>
-                <li><a href="./index.html">🏠 home</a></li>
-                <li><a href="./about.html">👤 about</a></li>
-                <li><a href="./contact.html">📨 contact</a></li>
-            </ul>
+                <form action="./about.html">
+                    <button type="submit" value="aboutButton">👤 about</button>
+                </form>
+                <form action="./contact.html">
+                    <button type="submit" value="contactButton">📨 contact</button>
+            </form>
+        </li>
         </nav>
     </header>
 
-    <main>
+    <main style="display: flex; align-items: center; flex-direction: column; padding-top: 15px;">
 
         <div style="display: flex; gap: 1em; align-items:center; padding-right: 15px;">
             <img src="./img/pfp.jpg" alt="pfp" width="125px" style="border-radius: 50%;">
@@ -46,7 +48,7 @@
         <p>📚 eng, pt, nl, is, fi, no</p>
         <p>🎹 swans / maruja / gy!be / bc,nr / quadeca</p>
         <p>🍿 the oa, dark, copenhagen cowboy, the good place</p>
-        <p>🗾 death note, solo leveling, frieren, paranoia agent, se:lain</p>
+        <p>🗾 lain, death note, solo leveling, frieren, paranoia agent</p>
         <!-- type can be email and date too -->
     </main>
 
