@@ -3,7 +3,7 @@
 }
 
 div {
-    background-color: #A89678;
+    background-color: #a98467;
     width: fit-content;
     height: auto;
     padding: 10px;
@@ -24,11 +24,13 @@ div {
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background-color: #faeefa;
+    background-color: #adc178;
 }
 
 p, fieldset, nav, form, input, label {
-    font-size: small;
+    font-size: large;
+    font-weight: bold;
+    color: #6c584c;
 }
 
 p {
@@ -40,4 +42,33 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
+
+fieldset {
+    border-style: solid;
+    border-color: #6c584c;
+}
+
+h1 {
+    color: #6c584c;
+    font-size: xx-large;
+    font-weight:900;
+}
+
+button {
+    background-color: #a98467;
+    color: white;
+    border-color: #a98467;
+    border-style: solid;
+    font-size: large;
+}
+
+.line {
+    height: 10px;
+    width: 100%;
+    color: #a98467;
+    padding: 0px;
+    gap: 0px;
+    border: 10px solid;
+    border-radius:5px;
+}
